@@ -1,0 +1,63 @@
+* {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+html,
+body {
+  background-color: #fff !important;
+}
+body {
+  font-size: 10pt;
+  color: #222;
+}
+header,
+.Pane,
+.full-screen-prompt,
+#document-unavailable,
+.Document-bottomSpace,
+.DocumentBreadcrumb,
+.loader,
+.load-fail,
+.ContextMenu,
+.node-toolbar,
+.DocumentTools,
+.LeftPaneSlidebarContainer,
+.LeftPaneContainer,
+#image-preview-fail,
+.search-ui-go-back,
+.search-ui-form,
+.Suggestions,
+.Node-openNote,
+.node-icon,
+.LeftPaneSplitter,
+.ShortcutHelp,
+.Document-bottomSpace,
+.DocumentContainer.is-article-view .Node-bullet,
+.status-bar,
+.tip-container {
+  display: none !important;
+}
+.DocumentContainer {
+  left: 0 !important;
+  overflow-y: visible;
+  width: 100% !important;
+  height: inherit !important;
+}
+.Node-bullet {
+  background-size: 15px;
+}
+.Node-self.is-hidingNote:not(.is-noteEmpty) .Node-contentContainer {
+  margin-bottom: 0;
+}
+.Document {
+  margin-bottom: 0 !important;
+}
+.AppContainer.is-showing-shortcut-help .normal-view {
+  width: 100% !important;
+}
+.is-desktop .Document-rootNode {
+  padding: 0;
+}
+.read-only-doc .Node.is-currentRoot:before {
+  display: none !important;
+}

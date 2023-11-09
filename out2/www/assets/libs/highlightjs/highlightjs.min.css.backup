@@ -1,0 +1,130 @@
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #383a42;
+  background: #fafafa;
+}
+.hljs-comment,
+.hljs-quote {
+  color: #a0a1a7;
+  font-style: italic;
+}
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+  color: #a626a4;
+}
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: #e45649;
+}
+.hljs-literal {
+  color: #0184bb;
+}
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta-string {
+  color: #50a14f;
+}
+.hljs-built_in,
+.hljs-class .hljs-title {
+  color: #c18401;
+}
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+  color: #986801;
+}
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: #4078f2;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: bold;
+}
+.hljs-link {
+  text-decoration: underline;
+}
+.is-dark-mode .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #abb2bf;
+  background: #282c34;
+}
+.is-dark-mode .hljs-comment,
+.is-dark-mode .hljs-quote {
+  color: #5c6370;
+  font-style: italic;
+}
+.is-dark-mode .hljs-doctag,
+.is-dark-mode .hljs-keyword,
+.is-dark-mode .hljs-formula {
+  color: #c678dd;
+}
+.is-dark-mode .hljs-section,
+.is-dark-mode .hljs-name,
+.is-dark-mode .hljs-selector-tag,
+.is-dark-mode .hljs-deletion,
+.is-dark-mode .hljs-subst {
+  color: #e06c75;
+}
+.is-dark-mode .hljs-literal {
+  color: #56b6c2;
+}
+.is-dark-mode .hljs-string,
+.is-dark-mode .hljs-regexp,
+.is-dark-mode .hljs-addition,
+.is-dark-mode .hljs-attribute,
+.is-dark-mode .hljs-meta-string {
+  color: #98c379;
+}
+.is-dark-mode .hljs-built_in,
+.is-dark-mode .hljs-class .is-dark-mode .hljs-title {
+  color: #e6c07b;
+}
+.is-dark-mode .hljs-attr,
+.is-dark-mode .hljs-variable,
+.is-dark-mode .hljs-template-variable,
+.is-dark-mode .hljs-type,
+.is-dark-mode .hljs-selector-class,
+.is-dark-mode .hljs-selector-attr,
+.is-dark-mode .hljs-selector-pseudo,
+.is-dark-mode .hljs-number {
+  color: #d19a66;
+}
+.is-dark-mode .hljs-symbol,
+.is-dark-mode .hljs-bullet,
+.is-dark-mode .hljs-link,
+.is-dark-mode .hljs-meta,
+.is-dark-mode .hljs-selector-id,
+.is-dark-mode .hljs-title {
+  color: #61aeee;
+}
+.is-dark-mode .hljs-emphasis {
+  font-style: italic;
+}
+.is-dark-mode .hljs-strong {
+  font-weight: bold;
+}
+.is-dark-mode .hljs-link {
+  text-decoration: underline;
+}

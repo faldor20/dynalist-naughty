@@ -1,0 +1,9 @@
+{
+  "name": "dynalist-desktop",
+  "productName": "Dynalist Dev",
+  "description": "The Dynalist desktop appication.",
+  "version": "1.5.0",
+  "author": "Dynalist",
+  "copyright": "Dynalist© 2016, all rights reserved.",
+  "main": "index.js"
+}
